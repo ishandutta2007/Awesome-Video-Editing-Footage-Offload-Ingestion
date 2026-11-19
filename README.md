@@ -4,11 +4,13 @@
 
 ![Awesome Video Editing & Footage Offload Ingestion Ecosystem Banner](./assets/banner.svg)
 
+<a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![Track: Video Production](https://img.shields.io/badge/Track-DIT%20%26%20Footage%20Ingestion-06b6d4.svg?style=flat-square&logo=video)](https://github.com/ishandutta2007/Awesome-Video-Editing-Footage-Offload-Ingestion)
 [![Verification](https://img.shields.io/badge/Verification-xxHash%20%7C%20MD5%20%7C%20ASC--MHL-3b82f6.svg?style=flat-square&logo=shield)](https://github.com/ishandutta2007/Awesome-Video-Editing-Footage-Offload-Ingestion)
 [![License: CC0-1.0](https://img.shields.io/badge/License-CC0%201.0-22c55e.svg?style=flat-square)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/ishandutta2007/Awesome-Video-Editing-Footage-Offload-Ingestion/pulls)
+<a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 
 **A curated, production-tested directory of SaaS products, professional DIT desktop utilities, and open-source GitHub projects for camera card offloading, checksum verification, ASC-MHL manifests, proxy generation, dailies workflows, and media asset management.**
 
@@ -16,7 +18,7 @@
 
 ---
 
-[Sector Overview](#-sector-overview--market-dynamics) • [SaaS & Commercial Platforms](#-saas--commercial-platforms) • [Open-Source GitHub Projects](#-open-source-github-projects) • [Key Technical Capabilities](#-key-technical-capabilities) • [Contributing](#-how-to-contribute)
+[Sector Overview](#-sector-overview--market-dynamics) • [SaaS & Commercial Platforms](#-saas--commercial-platforms) • [Open-Source GitHub Projects](#-open-source-github-projects) • [Key Technical Capabilities](#-key-technical-capabilities) • [Star History](#star-history) • [Support](#-support) • [Contributing](#-how-to-contribute)
 
 ---
 
@@ -132,6 +134,24 @@ A comprehensive collection of open-source software, CLI tools, libraries, and fi
 ### 2. ASC-MHL (Media Hash List) v2 Standard
 - Creates a cryptographically sealed folder-level manifest of all files, directory trees, file sizes, creation timestamps, and hashes.
 - Enables downstream editorial and VFX teams to independently verify that not a single byte was altered between the camera card and post-production storage.
+
+---
+
+## Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Video-Editing-Footage-Offload-Ingestion&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Video-Editing-Footage-Offload-Ingestion&type=date&legend=top-left)
+
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-Video-Editing-Footage-Offload-Ingestion&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-Video-Editing-Footage-Offload-Ingestion&type=date&legend=top-left)
+
+---
+
+## 💖 Support
+
+Thank you for exploring and utilizing this curated directory! If you found this repository helpful for your production workflow, DIT cart setup, or pipeline development, please consider showing your support:
+
+- ⭐ **Star this repository** to help others discover it across GitHub
+- 🍴 **Fork and share** it with fellow DITs, cinematographers, post-production supervisors, and video engineers
+- ☕ **Buy me a coffee / Sponsor on GitHub**: Support ongoing curation and maintenance directly via the [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007)
 
 ---
 
