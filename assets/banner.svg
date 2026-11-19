@@ -1,0 +1,288 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0e17" />
+      <stop offset="50%" stop-color="#111827" />
+      <stop offset="100%" stop-color="#070a10" />
+    </linearGradient>
+
+    <!-- Card / Panel Gradient -->
+    <linearGradient id="panelGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1f2937" stop-opacity="0.85" />
+      <stop offset="100%" stop-color="#111827" stop-opacity="0.9" />
+    </linearGradient>
+
+    <!-- Accent Gradient Cyan/Blue -->
+    <linearGradient id="accentCyan" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#06b6d4" />
+      <stop offset="50%" stop-color="#3b82f6" />
+      <stop offset="100%" stop-color="#8b5cf6" />
+    </linearGradient>
+
+    <!-- Accent Amber/Gold for film & offload -->
+    <linearGradient id="accentGold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#ef4444" />
+    </linearGradient>
+
+    <!-- Glowing Filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    .title-text {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      font-weight: 800;
+      fill: #ffffff;
+      font-size: 40px;
+      letter-spacing: -0.5px;
+    }
+    .subtitle-text {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      font-weight: 500;
+      fill: #94a3b8;
+      font-size: 17px;
+      letter-spacing: 0.2px;
+    }
+    .badge-text {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      font-size: 13px;
+      font-weight: 600;
+    }
+    .hud-code {
+      font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+      font-size: 12px;
+      fill: #38bdf8;
+    }
+
+    /* Ambient animated data flow pulses (kept strictly in background and sidebar) */
+    @keyframes pulseGlow {
+      0%, 100% { opacity: 0.35; transform: scale(1); }
+      50% { opacity: 0.75; transform: scale(1.08); }
+    }
+    @keyframes transferFlow {
+      0% { stroke-dashoffset: 200; }
+      100% { stroke-dashoffset: 0; }
+    }
+    @keyframes radarSweep {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+    @keyframes cardFloat {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-5px); }
+    }
+
+    .ambient-pulse-1 {
+      animation: pulseGlow 6s infinite ease-in-out;
+      transform-origin: 200px 100px;
+    }
+    .ambient-pulse-2 {
+      animation: pulseGlow 7s infinite ease-in-out 1.5s;
+      transform-origin: 1000px 320px;
+    }
+    .data-flow-line {
+      stroke-dasharray: 8 6;
+      animation: transferFlow 4s linear infinite;
+    }
+    .floating-card-1 {
+      animation: cardFloat 5s ease-in-out infinite;
+    }
+    .floating-card-2 {
+      animation: cardFloat 6s ease-in-out infinite 1s;
+    }
+    .radar-beam {
+      transform-origin: 1050px 110px;
+      animation: radarSweep 8s linear infinite;
+    }
+  </style>
+
+  <!-- Deep Slate Background Canvas -->
+  <rect width="1200" height="420" rx="16" fill="url(#bgGrad)" stroke="#1e293b" stroke-width="2"/>
+
+  <!-- Subtle Film Sprocket Borders (Top & Bottom) -->
+  <g fill="#1e293b" opacity="0.4">
+    <!-- Top Sprockets -->
+    <rect x="30" y="14" width="22" height="14" rx="3"/>
+    <rect x="80" y="14" width="22" height="14" rx="3"/>
+    <rect x="130" y="14" width="22" height="14" rx="3"/>
+    <rect x="180" y="14" width="22" height="14" rx="3"/>
+    <rect x="230" y="14" width="22" height="14" rx="3"/>
+    <rect x="280" y="14" width="22" height="14" rx="3"/>
+    <rect x="330" y="14" width="22" height="14" rx="3"/>
+    <rect x="380" y="14" width="22" height="14" rx="3"/>
+    <rect x="430" y="14" width="22" height="14" rx="3"/>
+    <rect x="480" y="14" width="22" height="14" rx="3"/>
+    <rect x="530" y="14" width="22" height="14" rx="3"/>
+    <rect x="580" y="14" width="22" height="14" rx="3"/>
+    <rect x="630" y="14" width="22" height="14" rx="3"/>
+    <rect x="680" y="14" width="22" height="14" rx="3"/>
+    <rect x="730" y="14" width="22" height="14" rx="3"/>
+    <rect x="780" y="14" width="22" height="14" rx="3"/>
+    <rect x="830" y="14" width="22" height="14" rx="3"/>
+    <rect x="880" y="14" width="22" height="14" rx="3"/>
+    <rect x="930" y="14" width="22" height="14" rx="3"/>
+    <rect x="980" y="14" width="22" height="14" rx="3"/>
+    <rect x="1030" y="14" width="22" height="14" rx="3"/>
+    <rect x="1080" y="14" width="22" height="14" rx="3"/>
+    <rect x="1130" y="14" width="22" height="14" rx="3"/>
+
+    <!-- Bottom Sprockets -->
+    <rect x="30" y="392" width="22" height="14" rx="3"/>
+    <rect x="80" y="392" width="22" height="14" rx="3"/>
+    <rect x="130" y="392" width="22" height="14" rx="3"/>
+    <rect x="180" y="392" width="22" height="14" rx="3"/>
+    <rect x="230" y="392" width="22" height="14" rx="3"/>
+    <rect x="280" y="392" width="22" height="14" rx="3"/>
+    <rect x="330" y="392" width="22" height="14" rx="3"/>
+    <rect x="380" y="392" width="22" height="14" rx="3"/>
+    <rect x="430" y="392" width="22" height="14" rx="3"/>
+    <rect x="480" y="392" width="22" height="14" rx="3"/>
+    <rect x="530" y="392" width="22" height="14" rx="3"/>
+    <rect x="580" y="392" width="22" height="14" rx="3"/>
+    <rect x="630" y="392" width="22" height="14" rx="3"/>
+    <rect x="680" y="392" width="22" height="14" rx="3"/>
+    <rect x="730" y="392" width="22" height="14" rx="3"/>
+    <rect x="780" y="392" width="22" height="14" rx="3"/>
+    <rect x="830" y="392" width="22" height="14" rx="3"/>
+    <rect x="880" y="392" width="22" height="14" rx="3"/>
+    <rect x="930" y="392" width="22" height="14" rx="3"/>
+    <rect x="980" y="392" width="22" height="14" rx="3"/>
+    <rect x="1030" y="392" width="22" height="14" rx="3"/>
+    <rect x="1080" y="392" width="22" height="14" rx="3"/>
+    <rect x="1130" y="392" width="22" height="14" rx="3"/>
+  </g>
+
+  <!-- Background Dynamic Glowing Nodes (Behind all content) -->
+  <g class="ambient-pulse-1">
+    <circle cx="160" cy="90" r="140" fill="#06b6d4" opacity="0.12" filter="url(#glow)"/>
+  </g>
+  <g class="ambient-pulse-2">
+    <circle cx="1040" cy="310" r="160" fill="#3b82f6" opacity="0.10" filter="url(#glow)"/>
+    <circle cx="980" cy="120" r="100" fill="#f59e0b" opacity="0.08" filter="url(#glow)"/>
+  </g>
+
+  <!-- Background Grid Lines -->
+  <g stroke="#334155" stroke-width="0.7" opacity="0.25">
+    <line x1="60" y1="50" x2="1140" y2="50" />
+    <line x1="60" y1="190" x2="1140" y2="190" />
+    <line x1="60" y1="370" x2="1140" y2="370" />
+    <line x1="780" y1="50" x2="780" y2="370" />
+  </g>
+
+  <!-- Animated Data Flow Pipeline (Right Hand / Graphic Region) -->
+  <g>
+    <!-- Transfer paths -->
+    <path d="M 830 140 C 900 140, 930 200, 1000 200" fill="none" stroke="#0284c7" stroke-width="2" opacity="0.4" />
+    <path d="M 830 140 C 900 140, 930 200, 1000 200" fill="none" stroke="#38bdf8" stroke-width="2.5" class="data-flow-line" />
+
+    <path d="M 830 270 C 900 270, 920 220, 1000 220" fill="none" stroke="#ca8a04" stroke-width="2" opacity="0.4" />
+    <path d="M 830 270 C 900 270, 920 220, 1000 220" fill="none" stroke="#facc15" stroke-width="2.5" class="data-flow-line" />
+  </g>
+
+  <!-- Right Side Interactive DIT Ingestion Telemetry HUD Cards (Distinct & Self-contained) -->
+  <g class="floating-card-1">
+    <!-- Card 1: Camera Card Offload Telemetry -->
+    <rect x="810" y="80" width="330" height="110" rx="12" fill="url(#panelGrad)" stroke="#334155" stroke-width="1.5" />
+    
+    <!-- Status Dot -->
+    <circle cx="835" cy="105" r="5" fill="#10b981">
+      <animate attributeName="opacity" values="1;0.4;1" dur="2s" repeatCount="indefinite" />
+    </circle>
+    <text x="850" y="109" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="12" font-weight="700" fill="#e2e8f0">CFexpress Type B &bull; CAM A REEL 04</text>
+    <text x="835" y="132" class="hud-code">HASH: xxHash64 + ASC-MHL v2.1</text>
+    <text x="835" y="152" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="12" fill="#94a3b8">RATE: 1,840 MB/s &bull; Dual NVMe RAID Mirror</text>
+    
+    <!-- Progress bar -->
+    <rect x="835" y="165" width="280" height="6" rx="3" fill="#1e293b"/>
+    <rect x="835" y="165" width="245" height="6" rx="3" fill="url(#accentCyan)"/>
+    <text x="1080" y="152" class="hud-code" fill="#10b981">88%</text>
+  </g>
+
+  <g class="floating-card-2">
+    <!-- Card 2: Multi-Destination Archival Target -->
+    <rect x="810" y="215" width="330" height="135" rx="12" fill="url(#panelGrad)" stroke="#334155" stroke-width="1.5" />
+    
+    <circle cx="835" cy="240" r="5" fill="#38bdf8"/>
+    <text x="850" y="244" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="12" font-weight="700" fill="#e2e8f0">DESTINATIONS &amp; VERIFICATION</text>
+    
+    <g transform="translate(835, 260)">
+      <!-- Target 1 -->
+      <rect x="0" y="0" width="8" height="8" rx="2" fill="#10b981"/>
+      <text x="16" y="8" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11" fill="#cbd5e1">RAID 5 Production Pool (Primary)</text>
+
+      <!-- Target 2 -->
+      <rect x="0" y="20" width="8" height="8" rx="2" fill="#10b981"/>
+      <text x="16" y="28" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11" fill="#cbd5e1">LTO-9 LTFS Tape Cartridge (Deep Archive)</text>
+
+      <!-- Target 3 -->
+      <rect x="0" y="40" width="8" height="8" rx="2" fill="#38bdf8"/>
+      <text x="16" y="48" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11" fill="#cbd5e1">C2C Cloud Dailies (ProRes Proxy Ingest)</text>
+
+      <!-- Verification Badge -->
+      <rect x="0" y="62" width="280" height="20" rx="4" fill="#0f172a" stroke="#1e293b"/>
+      <text x="10" y="76" class="hud-code" fill="#34d399">&gt; CHECKSUM VERIFIED: 0 ERRORS DETECTED</text>
+    </g>
+  </g>
+
+  <!-- FOREGROUND: Clear Title, Subtitle, and Feature Badges (Always unobstructed) -->
+  <g transform="translate(60, 0)">
+    <!-- Category Mini-Pill -->
+    <g transform="translate(0, 75)">
+      <rect width="320" height="28" rx="14" fill="#1e293b" stroke="#38bdf8" stroke-width="1.2" opacity="0.95"/>
+      <circle cx="16" cy="14" r="5" fill="#38bdf8">
+        <animate attributeName="opacity" values="0.6;1;0.6" dur="2s" repeatCount="indefinite" />
+      </circle>
+      <text x="30" y="19" class="badge-text" fill="#38bdf8">ON-SET DIT &bull; CAMERA FOOTAGE INGESTION</text>
+    </g>
+
+    <!-- Main Title (Strictly Foreground) -->
+    <text x="0" y="152" class="title-text">
+      Video Editing &amp; Footage Offload
+    </text>
+    <text x="0" y="198" class="title-text" fill="url(#accentCyan)">
+      Ingestion Ecosystem
+    </text>
+
+    <!-- Subtitle (Strictly Foreground) -->
+    <text x="0" y="238" class="subtitle-text">
+      Curated DIT utilities, checksum verification (xxHash, ASC MHL),
+    </text>
+    <text x="0" y="262" class="subtitle-text">
+      multi-destination backups, proxy transcoding &amp; cloud dailies pipelines.
+    </text>
+
+    <!-- Interactive / Status Pills -->
+    <g transform="translate(0, 295)">
+      <!-- Pill 1: Checksum -->
+      <rect x="0" y="0" width="160" height="34" rx="17" fill="#1e293b" stroke="#334155" stroke-width="1.2" />
+      <text x="20" y="22" class="badge-text" fill="#f8fafc">🔒 Checksum-Verified</text>
+
+      <!-- Pill 2: ASC MHL -->
+      <rect x="172" y="0" width="148" height="34" rx="17" fill="#1e293b" stroke="#334155" stroke-width="1.2" />
+      <text x="190" y="22" class="badge-text" fill="#f8fafc">📜 ASC-MHL Audits</text>
+
+      <!-- Pill 3: Proxies & MAM -->
+      <rect x="332" y="0" width="168" height="34" rx="17" fill="#1e293b" stroke="#334155" stroke-width="1.2" />
+      <text x="350" y="22" class="badge-text" fill="#f8fafc">⚡ Automated Proxies</text>
+
+      <!-- Pill 4: Open Source & SaaS -->
+      <rect x="512" y="0" width="170" height="34" rx="17" fill="#1e293b" stroke="#334155" stroke-width="1.2" />
+      <text x="530" y="22" class="badge-text" fill="#f8fafc">🌐 Hybrid Cloud &amp; OSS</text>
+    </g>
+
+    <!-- Lower Status Line -->
+    <g transform="translate(0, 360)">
+      <text x="0" y="0" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="13" font-weight="500" fill="#64748b">
+        Updated November 2026 &bull; Production-tested tools for DITs, cinematographers &amp; post-production engineers
+      </text>
+    </g>
+  </g>
+</svg>
