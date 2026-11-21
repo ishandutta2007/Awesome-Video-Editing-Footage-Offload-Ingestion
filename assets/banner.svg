@@ -107,7 +107,7 @@
   <!-- Deep Slate Background Canvas -->
   <rect width="1200" height="420" rx="16" fill="url(#bgGrad)" stroke="#1e293b" stroke-width="2"/>
 
-  <!-- Subtle Film Sprocket Borders (Top & Bottom) -->
+  <!-- Subtle Film Sprocket Borders (Top &amp; Bottom) -->
   <g fill="#1e293b" opacity="0.4">
     <!-- Top Sprockets -->
     <rect x="30" y="14" width="22" height="14" rx="3"/>
@@ -187,7 +187,7 @@
     <path d="M 830 270 C 900 270, 920 220, 1000 220" fill="none" stroke="#facc15" stroke-width="2.5" class="data-flow-line" />
   </g>
 
-  <!-- Right Side Interactive DIT Ingestion Telemetry HUD Cards (Distinct & Self-contained) -->
+  <!-- Right Side Interactive DIT Ingestion Telemetry HUD Cards (Distinct &amp; Self-contained) -->
   <g class="floating-card-1">
     <!-- Card 1: Camera Card Offload Telemetry -->
     <rect x="810" y="80" width="330" height="110" rx="12" fill="url(#panelGrad)" stroke="#334155" stroke-width="1.5" />
@@ -196,9 +196,9 @@
     <circle cx="835" cy="105" r="5" fill="#10b981">
       <animate attributeName="opacity" values="1;0.4;1" dur="2s" repeatCount="indefinite" />
     </circle>
-    <text x="850" y="109" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="12" font-weight="700" fill="#e2e8f0">CFexpress Type B &bull; CAM A REEL 04</text>
+    <text x="850" y="109" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="12" font-weight="700" fill="#e2e8f0">CFexpress Type B &#8226; CAM A REEL 04</text>
     <text x="835" y="132" class="hud-code">HASH: xxHash64 + ASC-MHL v2.1</text>
-    <text x="835" y="152" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="12" fill="#94a3b8">RATE: 1,840 MB/s &bull; Dual NVMe RAID Mirror</text>
+    <text x="835" y="152" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="12" fill="#94a3b8">RATE: 1,840 MB/s &#8226; Dual NVMe RAID Mirror</text>
     
     <!-- Progress bar -->
     <rect x="835" y="165" width="280" height="6" rx="3" fill="#1e293b"/>
@@ -240,7 +240,7 @@
       <circle cx="16" cy="14" r="5" fill="#38bdf8">
         <animate attributeName="opacity" values="0.6;1;0.6" dur="2s" repeatCount="indefinite" />
       </circle>
-      <text x="30" y="19" class="badge-text" fill="#38bdf8">ON-SET DIT &bull; CAMERA FOOTAGE INGESTION</text>
+      <text x="30" y="19" class="badge-text" fill="#38bdf8">ON-SET DIT &#8226; CAMERA FOOTAGE INGESTION</text>
     </g>
 
     <!-- Main Title (Strictly Foreground) -->
@@ -263,25 +263,25 @@
     <g transform="translate(0, 295)">
       <!-- Pill 1: Checksum -->
       <rect x="0" y="0" width="160" height="34" rx="17" fill="#1e293b" stroke="#334155" stroke-width="1.2" />
-      <text x="20" y="22" class="badge-text" fill="#f8fafc">🔒 Checksum-Verified</text>
+      <text x="20" y="22" class="badge-text" fill="#f8fafc">&#128274; Checksum-Verified</text>
 
       <!-- Pill 2: ASC MHL -->
       <rect x="172" y="0" width="148" height="34" rx="17" fill="#1e293b" stroke="#334155" stroke-width="1.2" />
-      <text x="190" y="22" class="badge-text" fill="#f8fafc">📜 ASC-MHL Audits</text>
+      <text x="190" y="22" class="badge-text" fill="#f8fafc">&#128220; ASC-MHL Audits</text>
 
       <!-- Pill 3: Proxies & MAM -->
       <rect x="332" y="0" width="168" height="34" rx="17" fill="#1e293b" stroke="#334155" stroke-width="1.2" />
-      <text x="350" y="22" class="badge-text" fill="#f8fafc">⚡ Automated Proxies</text>
+      <text x="350" y="22" class="badge-text" fill="#f8fafc">&#9889; Automated Proxies</text>
 
       <!-- Pill 4: Open Source & SaaS -->
       <rect x="512" y="0" width="170" height="34" rx="17" fill="#1e293b" stroke="#334155" stroke-width="1.2" />
-      <text x="530" y="22" class="badge-text" fill="#f8fafc">🌐 Hybrid Cloud &amp; OSS</text>
+      <text x="530" y="22" class="badge-text" fill="#f8fafc">&#127760; Hybrid Cloud &amp; OSS</text>
     </g>
 
     <!-- Lower Status Line -->
     <g transform="translate(0, 360)">
       <text x="0" y="0" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="13" font-weight="500" fill="#64748b">
-        Updated November 2026 &bull; Production-tested tools for DITs, cinematographers &amp; post-production engineers
+        Updated November 2026 &#8226; Production-tested tools for DITs, cinematographers &amp; post-production engineers
       </text>
     </g>
   </g>
