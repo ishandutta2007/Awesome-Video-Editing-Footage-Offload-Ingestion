@@ -69,7 +69,7 @@ The table below catalogs premier commercial software and SaaS platforms for on-s
 
 ## 💻 Open-Source GitHub Projects
 
-A comprehensive collection of open-source software, CLI tools, libraries, and filesystems vital for DIT engineers, video technicians, and post-production archivists. **All repositories are sorted descending by GitHub Stars_Count.**
+A comprehensive collection of open-source software, CLI tools, libraries, and filesystems vital for DIT engineers, video technicians, and post-production archivists. **All repositories are sorted descending by GitHub_Stars_Count.**
 
 | 📦 Repository & Project | ⭐ GitHub_Stars | ⚖️ License | 🛠️ Technology | 📖 Description & Architectural Role |
 |:---|:---:|:---:|:---:|:---|
